@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafael Pieper | Academic Portfolio</title>
+    
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Lora for academic headings, Inter for clean body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Custom font application */
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3, h4, h5, h6, .font-serif { font-family: 'Lora', serif; }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 antialiased selection:bg-blue-100 selection:text-blue-900">
+
+    <nav class="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm opacity-95">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-xl font-bold text-gray-900 font-serif tracking-tight">Rafael Pieper</a>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden sm:flex sm:space-x-8 items-center">
+                    <a href="#about" class="text-gray-600 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                    <a href="#publications" class="text-gray-600 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">Publications</a>
+                    <a href="#projects" class="text-gray-600 hover:text-blue-700 px-3 py-2 text-sm font-medium transition-colors">Projects</a>
+                </div>
+                <!-- Mobile Menu Button (Optional functionality can be added via JS later, keeping it simple for now) -->
+                <div class="flex items-center sm:hidden">
+                    <span class="text-xs text-gray-400 uppercase tracking-wider">Scroll for more</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        
+        <section id="about" class="scroll-mt-24 mb-20">
+            <div class="flex flex-col md:flex-row gap-10 items-center md:items-start">
+                
+                <!-- Profile Image -->
+                <div class="flex-shrink-0">
+                    <img class="h-48 w-48 rounded-full object-cover shadow-lg border-4 border-white" src="https://media.licdn.com/dms/image/v2/D4D03AQHlS7M-Roeo9A/profile-displayphoto-crop_800_800/B4DZ3AoQfyG8AM-/0/1777053273998?e=1786579200&v=beta&t=p4EBWrvdHr_543z6-wpntLCwSVrEHoYCLhccMQLl-Uo" alt="Rafael Pieper Profile">
+                </div>
+                
+                <!-- Biography and Details -->
+                <div>
+                    <h1 class="text-4xl font-bold text-gray-900 mb-2 font-serif">Hi, I'm Rafael Pieper 👋</h1>
+                    <p class="text-lg text-blue-700 font-medium mb-4">Naval Architect | Data Analytics Specialist | M.Sc. Candidate in Electronic Systems Engineering</p>
+                    
+                    <p class="text-gray-700 mb-5 leading-relaxed">
+                        I am an engineer specializing in the intersection of <strong>Naval Architecture</strong> and <strong>Applied Artificial Intelligence</strong>. Currently, I am conducting research at <a href="https://ppgese.joinville.ufsc.br/en/" class="text-blue-600 hover:underline" target="_blank" rel="noopener">UFSC</a> focused on leveraging Machine Learning and operations research for maritime efficiency. I also have done research on the application of AI models for predictive maintenance.
+                    </p>
+
+                    <!-- Social Links -->
+                    <div class="flex gap-4 mb-8">
+                        <a href="https://www.linkedin.com/in/rafaelpieper/" class="text-sm bg-white border border-gray-300 hover:border-blue-500 hover:text-blue-700 text-gray-700 px-4 py-1.5 rounded-full shadow-sm transition-all" target="_blank" rel="noopener">LinkedIn</a>
+                        <a href="https://rafaelpieper.com/" class="text-sm bg-white border border-gray-300 hover:border-blue-500 hover:text-blue-700 text-gray-700 px-4 py-1.5 rounded-full shadow-sm transition-all" target="_blank" rel="noopener">Website</a>
+                        <a href="https://www.researchgate.net/profile/Rafael-Pieper" class="text-sm bg-white border border-gray-300 hover:border-blue-500 hover:text-blue-700 text-gray-700 px-4 py-1.5 rounded-full shadow-sm transition-all" target="_blank" rel="noopener">ResearchGate</a>
+                    </div>
+
+                    <!-- Technical Toolkit -->
+                    <div class="bg-white p-5 rounded-lg border border-gray-200 shadow-sm">
+                        <h3 class="text-md font-bold text-gray-900 mb-3 uppercase tracking-wider text-sm">Technical Toolkit</h3>
+                        <ul class="text-gray-700 space-y-2 text-sm">
+                            <li><span class="font-semibold text-gray-900">Data Science:</span> Python (Pandas, Scikit-Learn), SQL, Power BI, Machine Learning.</li>
+                            <li><span class="font-semibold text-gray-900">Engineering:</span> Signal Processing, Time Series Analysis, Queuing Theory, Optimization.</li>
+                            <li><span class="font-semibold text-gray-900">Domains:</span> Naval Architecture, Port Logistics, Marine Engineering.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="scroll-mt-24 mb-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 font-serif">Featured Publications & Research</h2>
+            
+            <!-- Conferences -->
+            <div class="mb-10">
+                <h3 class="text-xl font-semibold text-gray-800 mb-5 border-b border-gray-200 pb-2">Conferences</h3>
+                <div class="flex flex-col gap-4">
+                    
+                    <!-- Card 1 -->
+                    <div class="group flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all gap-5 items-start">
+                        <div class="flex-shrink-0 bg-blue-50 p-3 rounded-full border border-blue-100 hidden sm:flex items-center justify-center w-14 h-14">
+                            <span class="text-2xl" aria-hidden="true">🚢</span>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Conference Paper</span>
+                                <span class="text-sm text-gray-500 font-medium">MARTECH 2026 | Lisbon-PT</span>
+                            </div>
+                            <a href="https://doi.org/10.1201/9781042001194-98" class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors block mb-1" target="_blank" rel="noopener">Port Terminals evaluation with clustering models</a>
+                            <p class="text-gray-600 text-sm">Presented at MARTECH 2026.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="group flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all gap-5 items-start">
+                        <div class="flex-shrink-0 bg-yellow-50 p-3 rounded-full border border-yellow-100 hidden sm:flex items-center justify-center w-14 h-14">
+                            <span class="text-2xl" aria-hidden="true">🏆</span>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Conference Paper</span>
+                                <span class="text-sm text-gray-500 font-medium">XII CIDESPORT | Florianopolis-BR</span>
+                            </div>
+                            <a href="https://www.researchgate.net/publication/398773609_TEORIA_DAS_FILAS_NO_PLANEJAMENTO_PORTUARIO_um_estudo_de_caso_com_o_terminal_de_conteineres_de_Salvador" class="text-lg font-bold text-gray-900 group-hover:text-blue-600 transition-colors block mb-1" target="_blank" rel="noopener">Teoria das Filas no Planejamento Portuário: Um Estudo de Caso com o Terminal de Contêineres de Salvador</a>
+                            <p class="text-yellow-600 text-sm font-medium">2nd Best Paper at XII CIDESPORT.</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="group flex flex-col sm:flex-row bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all gap-5 items-start">
+                        <div class="flex-shrink-0 bg-gray-50 p-3 rounded-full border border-gray-100 hidden sm:flex items-center justify-center w-14 h-14">
+                            <span class="text-2xl" aria-hidden="true">📈</span>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex flex-wrap items-center gap-2 mb-2">
+                                <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Conference Paper</span>
+                                <span class="text-sm text-gray-500 font-medium">XXIX COPINAVAL | Lima-PE</span>
+                            </div>
+                            <span class="text-lg font-bold text-gray-900 block mb-1">Forecasting Brazil's maritime container throughput: A comparative study of SARIMA, and LSTM Neural Network models with cyclical encoding.</span>
+                            <p class="text-gray-600 text-sm italic">Waiting for official proceedings publication (<a href="https://link.springer.com/book/9783032342997" class="text-blue-600 hover:underline" target="_blank" rel="noopener">Springer Nature</a>)</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Individual Papers -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-5 border-b border-gray-200 pb-2">Individual Papers (Master's Coursework)</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    
+                    <!-- Paper 1 -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all flex flex-col">
+                        <div class="mb-2">
+                            <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Review Article</span>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2"><a href="https://rafaelpieper.com/review-on-fdd/" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Fault Detection in Tugboat Marine Diesel Engines Through the Application of Machine Learning – a Review</a></h4>
+                        <p class="text-gray-600 text-sm mt-auto">A literature review of fault detection methods for marine applications.</p>
+                    </div>
+
+                    <!-- Paper 2 -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all flex flex-col">
+                        <div class="mb-2">
+                            <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Critical Review</span>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2"><a href="https://github.com/RafaPieper/Critical_Review_Fault_Detection_propulsion" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">USV Thruster Fault Detection</a></h4>
+                        <p class="text-gray-600 text-sm mt-auto">Critical review of a paper for the Signal Analysis and Processing course.</p>
+                    </div>
+
+                    <!-- Paper 3 -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all flex flex-col">
+                        <div class="mb-2">
+                            <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Research Paper</span>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2"><a href="https://github.com/RafaPieper/PPGESE_Trabalho_Analise_de_Sinais" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Paper on Signal Analysis and Processing Techniques</a></h4>
+                        <p class="text-gray-600 text-sm mt-auto">Application of signal processing methods learned in the Signal Analysis and Processing course.</p>
+                    </div>
+
+                    <!-- Paper 4 -->
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all flex flex-col">
+                        <div class="mb-2">
+                            <span class="bg-gray-100 text-gray-700 text-xs font-semibold px-2.5 py-0.5 rounded border border-gray-200">Data Analytics</span>
+                        </div>
+                        <h4 class="font-bold text-gray-900 mb-2"><a href="https://github.com/RafaPieper/Artigo-Acidentes-PRF" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Data Analytics on Federal Road Accidents in Brazil</a></h4>
+                        <p class="text-gray-600 text-sm mt-auto">Work for evaluation of knowledge in the Data Science Course.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <hr class="my-12 border-gray-100">
+
+            <!-- Academic Projects -->
+            <div>
+                <h3 class="text-xl font-bold text-gray-900 mb-6 font-serif flex items-center gap-2">
+                    <span class="bg-gray-100 text-gray-500 p-1.5 rounded-md"><svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg></span>
+                    Academic Theses
+                </h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
+                    
+                    <!-- Undergrad Project Card -->
+                    <div class="group h-full flex flex-col bg-white border border-gray-200 rounded-lg p-6 hover:border-blue-300 hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1">
+                        <h4 class="font-bold text-gray-900 mb-3 text-lg"><a href="https://repositorio.ufsc.br/handle/123456789/191890" class="hover:text-blue-600 transition-colors after:absolute after:inset-0" target="_blank" rel="noopener">Tool Development for Sailboat Offsets Table Generation</a></h4>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Final Undergraduate Project (TCC) in Naval Engineering at UFSC. Focuses on generating automated offset tables for sailboat hulls.</p>
+                        <div class="mt-auto">
+                            <span class="inline-block bg-blue-50 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded border border-blue-200">Naval Architecture</span>
+                        </div>
+                    </div>
+
+                    <!-- Master's Thesis Card (Under Construction) -->
+                    <div class="group h-full flex flex-col bg-gray-50 border-2 border-dashed border-gray-300 rounded-lg p-6 hover:border-blue-300 hover:shadow-sm transition-all duration-300">
+                        <div class="flex items-center gap-2 mb-3">
+                            <span class="text-xl" aria-hidden="true">🚧</span>
+                            <h4 class="font-bold text-gray-900 text-lg">Master's Thesis</h4>
+                        </div>
+                        <p class="text-gray-600 text-sm leading-relaxed mb-4">Currently conducting research focusing on the intersection of Applied Artificial Intelligence and maritime efficiency for my M.Sc. in Electronic Systems Engineering.</p>
+                        <div class="mt-auto flex flex-wrap gap-2">
+                            <span class="inline-flex items-center gap-1 bg-yellow-50 text-yellow-700 text-xs font-semibold px-2.5 py-1 rounded border border-yellow-200 shadow-sm">
+                                <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+                                Under Construction
+                            </span>
+                            <span class="inline-block bg-blue-50 text-blue-700 text-xs font-semibold px-2.5 py-1 rounded border border-blue-200">Applied AI & Maritime</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <hr class="my-12 border-gray-200">
+
+        <section id="projects" class="scroll-mt-24 mb-20">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 font-serif">Key Projects</h2>
+            
+            <!-- Naval Engineering & Maritime Logistics -->
+            <div class="mb-10">
+                <h3 class="text-xl font-semibold text-gray-800 mb-5 border-b border-gray-200 pb-2">Naval Engineering & Maritime Logistics</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://github.com/RafaPieper/Tugboat-Allocation-Optmization" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Tugboat Allocation Optimization</a></h4>
+                        <p class="text-gray-600 text-sm">Solving complex logistics problems using Optimization Techniques.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://rafaelpieper.com/shipbuilding-power-bi-report/" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Shipbuilding Dashboard</a></h4>
+                        <p class="text-gray-600 text-sm">Interactive Power BI Report for project follow-up.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://rafaelpieper.com/bollard-pull/" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Bollard Pull Estimation</a></h4>
+                        <p class="text-gray-600 text-sm">Linear Regression model for vessel performance.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1">Vessel Dynamics</h4>
+                        <p class="text-gray-600 text-sm">Tools for evaluating <a href="https://github.com/RafaPieper/Bulbous_Bow" class="text-blue-600 hover:underline" target="_blank" rel="noopener">Bulbous Bow effects</a> and <a href="https://github.com/RafaPieper/Ship_Draft_Marks" class="text-blue-600 hover:underline" target="_blank" rel="noopener">Ship Draft behavior</a>.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://github.com/RafaPieper/Ship_Structure_Calculation" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Structural Analysis</a></h4>
+                        <p class="text-gray-600 text-sm">Application to evaluate the global structure of a ship.</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- AI & Signal Processing -->
+            <div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-5 border-b border-gray-200 pb-2">AI & Signal Processing</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                    
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://github.com/RafaPieper/Example_Fault_Detection_Tree" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Fault Detection</a></h4>
+                        <p class="text-gray-600 text-sm">Implementation of a Decision Tree example for industrial monitoring.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://github.com/RafaPieper/Discrete_Fourier_Transform_Signal_Creator" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Signal Analysis</a></h4>
+                        <p class="text-gray-600 text-sm">DFT Application and random signal generation.</p>
+                    </div>
+
+                    <div class="bg-white border border-gray-200 rounded-lg p-5 hover:border-blue-300 hover:shadow-md transition-all">
+                        <h4 class="font-bold text-gray-900 mb-1"><a href="https://github.com/RafaPieper/Ships_Data_Analysis" class="hover:text-blue-600 transition-colors" target="_blank" rel="noopener">Exploratory Data Analysis</a></h4>
+                        <p class="text-gray-600 text-sm">Ship Dimensions Analysis using Python.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer class="bg-white border-t border-gray-200 mt-auto py-8">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-sm text-gray-500">
+                &copy; <script>document.write(new Date().getFullYear())</script> Rafael Pieper. 
+            </p>
+            <div class="flex gap-4 text-sm font-medium">
+                <a href="https://www.linkedin.com/in/rafaelpieper/" class="text-gray-500 hover:text-blue-600 transition-colors">LinkedIn</a>
+                <a href="https://rafaelpieper.com/" class="text-gray-500 hover:text-blue-600 transition-colors">Website</a>
+                <a href="https://github.com/RafaPieper" class="text-gray-500 hover:text-blue-600 transition-colors">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
